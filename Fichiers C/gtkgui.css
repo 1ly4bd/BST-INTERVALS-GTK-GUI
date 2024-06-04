@@ -1,0 +1,103 @@
+window {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+    background-color: #333333;
+    background-image: none;
+    box-shadow: none;
+    outline: none;
+    text-shadow: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: normal;
+    border: 2px solid #555555;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 10px 20px;
+}
+
+button:hover {
+    background-color: #444444;
+}
+
+button:active {
+    background-color: #555555;
+}
+
+entry {
+    background-color: #2d2d2d;
+    color: #ffffff;
+    border: 1px solid #555555;
+    border-radius: 2px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+entry:focus {
+    border-color: #bbbbbb;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+}
+
+textview {
+    background-color: #3c3c3c;
+    color: #ffffff;
+    border: 1px solid #555555;
+    border-radius: 2px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+
+textview text {
+    color: #ffffff;
+}
+
+frame {
+    border: 1px solid #555555;
+    border-radius: 2px;
+    padding: 10px;
+    background-color: #2d2d2d;
+}
+
+frame > label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+drawingarea {
+    background-color: #2d2d2d;
+    border: 1px solid #555555;
+}
+
+.titlebar {
+    background: #2d2d2d;
+    background-image: none;
+    box-shadow: none;
+    outline: none;
+    text-shadow: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: normal;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-width: 0px;
+}
+
+.titlebar button {
+    border: none;
+    background-color: #2d2d2d;
+}
+
+#splash_window {
+    border-radius: 15px;
+    border: 5px solid rgba(255, 255, 255, 0.2);
+}
+
+
